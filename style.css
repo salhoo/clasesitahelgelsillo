@@ -1,0 +1,57 @@
+/* GENERAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 10%;
+    font-family: times new roman;
+    background-color: #111;
+    color: white
+}
+
+
+/* HEADER STYLES */
+
+header {
+    padding: 25px 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a,
+nav button {
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+nav a:hover,
+nav button:hover {
+    opacity: 0.5;
+}
+
+/* index artitsa */
+
+
+.artist-photo {
+    width: 220px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+
